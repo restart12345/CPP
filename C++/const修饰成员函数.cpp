@@ -14,7 +14,7 @@ public:
 	void func()
 	{
 
-	}
+	} 
 	int m_A;
 	mutable int m_B; //特殊变量,在变量前加上mutable,即使在常函数中，也可以修改这个值
 };

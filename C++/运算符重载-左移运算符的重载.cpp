@@ -14,10 +14,10 @@ private:
 	int m_A;
 	int m_B;
 };
-ostream& operator<<(ostream &out,Person&p)
+ostream& operator<<(ostream &cout,Person&p)
 {
-	out << "m_A=" << p.m_A << " " << "m_B=" << p.m_B;
-	return out;
+	cout << "m_A=" << p.m_A << " " << "m_B=" << p.m_B;
+	return cout;
 }
 void test01()
 {
